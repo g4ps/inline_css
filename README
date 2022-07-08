@@ -1,0 +1,11 @@
+Little tool for making html's with inline styles
+
+
+usage: python3 comp.py input_file style.evg output_file
+
+input file should have attributes 'evg' which will be substituted according to attribute names is styles.evg
+
+.evg files have sytax of
+name_of_attr css_to_be_substituted #comment
+
+that thing is primitive and probably could've been done much easier, but it was fun to make and it served me well
